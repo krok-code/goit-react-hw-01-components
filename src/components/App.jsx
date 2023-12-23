@@ -1,6 +1,9 @@
 import { Profile } from './profile/profile/Profile';
 import user from './profile/profile/user.json';
 
+import { Statistics } from './statistics/Statistics';
+import data from './statistics/data.json';
+
 export const App = () => {
   return (
     <div

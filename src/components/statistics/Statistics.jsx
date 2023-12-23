@@ -11,13 +11,13 @@ export const Statistics = ({ title, stats }) => (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
-        {stats.map(start => (
+        {stats.map(stat => (
           <li
             className={title ? css.statListItem : css.statListItemNoTitle}
             style={{
               backgroundColor: getRandomHexColor(),
             }}
-            key={stats.id}
+            key={stat.id}
           >
             <span className={css.label}>{stat.label}</span>
             <span className={css.percentage}>{stat.percentage}%</span>
