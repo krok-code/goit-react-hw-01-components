@@ -1,14 +1,12 @@
-transactionHistoryTable {
+.transactionHistoryTable {
   margin: 50px auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 0.5rem;
 }
-
 .headersRow {
   font-size: 24px;
   text-align: center;
 }
-
 .columnHeader {
   width: 30%;
   padding: 16px 80px;
@@ -22,15 +20,12 @@ transactionHistoryTable {
 .columnHeader:first-child {
   border-radius: 8px 0 0 0;
 }
-
 .columnHeader:last-child {
   border-radius: 0 8px 0 0;
 }
-
 .valuesRow:last-child .transactionData:first-child {
   border-radius: 0 0 0 8px;
 }
-
 .valuesRow:last-child .transactionData:last-child {
   border-radius: 0 0 8px 0;
 }
@@ -40,7 +35,7 @@ transactionHistoryTable {
   color: #8a8b8e;
   font-size: 32px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .valuesRow:nth-child(even) {
