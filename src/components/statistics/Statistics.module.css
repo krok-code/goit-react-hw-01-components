@@ -1,0 +1,29 @@
+.statisticsContainer {
+  max-width: 50%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+.title {
+  margin: 0;
+  padding: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 40px;
+  border-bottom: 1px solid #d3d5e3;
+  background-color: #fff;
+}
+
+.statList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
