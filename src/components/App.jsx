@@ -1,14 +1,14 @@
-import { Profile } from '../components/profile/Profile';
-import user from './profile/user.json';
+import { Profile } from './Profile/Profile';
+import user from '../json-folders/user.json';
 
-import { Statistics } from '../components/statistics/Statistics';
-import data from './statistics/data.json';
+import Statistics from './Statistics/Statistics';
+import data from '../json-folders/data.json';
 
-import { FriendList } from '../components/friend-list/FriendList';
-import friends from './friend-list/friends.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from '../json-folders/friends.json';
 
-import { TransactionHistory } from '../components/transaction-history/TransactionHistory';
-import transitions from './transaction-history/transaction.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transitions from '../json-folders/transaction.json';
 
 export const App = () => {
   return (
